@@ -12,9 +12,7 @@ let page;
 beforeEach(async() => {
   page = await browser.newPage();
 });
-// afterEach(async () => {
-//   await page.close();
-// });
+
 
 it('page title', async () => {
   await page.goto('https://app.deel.training/login');
